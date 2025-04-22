@@ -1,0 +1,151 @@
+@media (min-width: 724px) and (max-width: 1024px) {
+  /* header */
+  header .menuBox {
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 99;
+  }
+
+  header h1 {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  header h1 img.h_2 {
+    width: 60px;
+    cursor: pointer;
+  }
+
+  header h1 img.h_1 {
+    position: absolute;
+    width: 30px;
+    right: 15;
+    bottom: 20px;
+    transition: 1s;
+    z-index: -1;
+    opacity: 0;
+  }
+  /* section1 */
+  #section1 h2 {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+  }
+  #section1 h2.embo {
+    font-size: 15vw;
+  }
+  /* section2 */
+  #section2 .pro_img {
+    width: 30%;
+  }
+  #section2 .pro_txt {
+    width: 70%;
+  }
+  #section2 .about_wrap p:first-child {
+    font-size: clamp(30px, 2vw, 54px);
+  }
+  #section2 .about_wrap p:last-child {
+    font-size: clamp(16px, 2vw, 18px);
+  }
+  #section2 .about_wrap .idenTit {
+    font-size: clamp(30px, 2vw, 54px);
+  }
+  #section2 .skill_wrap {
+    margin-top: 70px;
+    margin-left: 50px;
+  }
+  #section2 .skill_wrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  #section2 .skill_wrap .tit {
+    font-size: clamp(24px, 2vw, 28px);
+  }
+  /* section3 */
+  
+  #section3 .slide_wrap {
+    width: 90%;
+    height: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  #section3 .slide li {
+    width: 100%;
+    height: 50%;
+    display: block;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 20px;
+  }
+  /* 슬라이드 내용 */
+  #section3 .slide .txt {
+    height: 40%;
+    display: block;
+  }
+  #section3 .slide .con {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+  }
+  #section3 .slide .img img {
+    width: 100%;
+  }
+
+  /* section4 */
+  #section4 .sq_wrap p {
+    font-size: 50px;
+    font-family: "Black Ops One", system-ui;
+    -webkit-text-stroke: 1px #222;
+    color: transparent;
+    cursor: pointer;
+    padding: 15px 30px;
+  }
+  #section4 .sq_wrap p br{
+    display:none;
+  }
+  #section4 .sq_wrap .oar {
+    background: url(/img/sub04_img01_tab.png);
+    background-repeat: no-repeat;
+  }
+  #section4 .sq_wrap .lab {
+    background: url(/img/sub04_img04_tab.png);
+    background-repeat: no-repeat;
+    opacity: 0;
+  }
+  #section4 .sq_wrap .roy {
+    background: url(/img/sub04_img03_tab.png);
+    background-repeat: no-repeat;
+    opacity: 0;
+  }
+
+  /* section5 */
+  #section5 {
+    padding: 100px 50px;
+  }
+  #section5 li {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #section5 li a {
+    width: 100%;
+    display: block;
+    font-size: 24px;
+    color: #111;
+    text-align: right;
+  }
+  #section5 li p {
+    width: 100%;
+    font-size: 80px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+  }
+}
