@@ -117,8 +117,6 @@
     height: 350px;
     top: 0px;
     left: 0%;
-    /* transform:rotate(65deg);
-    transform-origin: top left; */
   }
 
   /* section2 */
@@ -231,16 +229,16 @@
     display:none;
   }
   #section4 .sq_wrap .oar {
-    background: url(/img/sub04_img01_mob.png);
+    background: url('https://juyoung526.github.io/new25Jroom/img/sub04_img01_mob.png');
     background-repeat: no-repeat;
   }
   #section4 .sq_wrap .lab {
-    background: url(/img/sub04_img04_mob.png);
+    background: url('https://juyoung526.github.io/new25Jroom/img/sub04_img04_mob.png.png');
     background-repeat: no-repeat;
     opacity: 0;
   }
   #section4 .sq_wrap .roy {
-    background: url(/img/sub04_img03_mob.png);
+    background: url('https://juyoung526.github.io/new25Jroom/img/sub04_img03_mob.png.png');
     background-repeat: no-repeat;
     opacity: 0;
   }
